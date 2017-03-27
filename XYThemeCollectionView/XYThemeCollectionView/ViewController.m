@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "XYThemeCollectionView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet XYThemeCollectionView *themeCollectionView;
 
 @end
 
@@ -16,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //test
+    [self initUI];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,5 +29,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)initUI{
+    
+}
 
 @end

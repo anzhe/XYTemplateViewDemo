@@ -15,6 +15,11 @@
 		CD8FC5CC1E88F82000957878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8FC5CA1E88F82000957878 /* LaunchScreen.storyboard */; };
 		CD8FC5D71E88F82000957878 /* XYThemeCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FC5D61E88F82000957878 /* XYThemeCollectionViewTests.m */; };
 		CD8FC5E21E88F82000957878 /* XYThemeCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FC5E11E88F82000957878 /* XYThemeCollectionViewUITests.m */; };
+		CD8FC5F51E89133200957878 /* XYThemeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FC5F41E89133200957878 /* XYThemeCollectionView.m */; };
+		CD8FC5F81E89134700957878 /* XYThemeCollectionViewMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FC5F71E89134700957878 /* XYThemeCollectionViewMainCell.m */; };
+		CD8FC5FC1E89136600957878 /* XYThemeCollectionViewSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FC5FA1E89136600957878 /* XYThemeCollectionViewSubCell.m */; };
+		CD8FC5FD1E89136600957878 /* XYThemeCollectionViewSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8FC5FB1E89136600957878 /* XYThemeCollectionViewSubCell.xib */; };
+		CD8FC5FF1E89137900957878 /* XYThemeCollectionViewMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8FC5FE1E89137900957878 /* XYThemeCollectionViewMainCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		CD8FC5DD1E88F82000957878 /* XYThemeCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYThemeCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8FC5E11E88F82000957878 /* XYThemeCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYThemeCollectionViewUITests.m; sourceTree = "<group>"; };
 		CD8FC5E31E88F82000957878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8FC5F31E89133200957878 /* XYThemeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYThemeCollectionView.h; path = collectionView/XYThemeCollectionView.h; sourceTree = "<group>"; };
+		CD8FC5F41E89133200957878 /* XYThemeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYThemeCollectionView.m; path = collectionView/XYThemeCollectionView.m; sourceTree = "<group>"; };
+		CD8FC5F61E89134700957878 /* XYThemeCollectionViewMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYThemeCollectionViewMainCell.h; path = collectionView/XYThemeCollectionViewMainCell.h; sourceTree = "<group>"; };
+		CD8FC5F71E89134700957878 /* XYThemeCollectionViewMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYThemeCollectionViewMainCell.m; path = collectionView/XYThemeCollectionViewMainCell.m; sourceTree = "<group>"; };
+		CD8FC5F91E89136600957878 /* XYThemeCollectionViewSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYThemeCollectionViewSubCell.h; path = collectionView/XYThemeCollectionViewSubCell.h; sourceTree = "<group>"; };
+		CD8FC5FA1E89136600957878 /* XYThemeCollectionViewSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYThemeCollectionViewSubCell.m; path = collectionView/XYThemeCollectionViewSubCell.m; sourceTree = "<group>"; };
+		CD8FC5FB1E89136600957878 /* XYThemeCollectionViewSubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XYThemeCollectionViewSubCell.xib; path = collectionView/XYThemeCollectionViewSubCell.xib; sourceTree = "<group>"; };
+		CD8FC5FE1E89137900957878 /* XYThemeCollectionViewMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XYThemeCollectionViewMainCell.xib; path = collectionView/XYThemeCollectionViewMainCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,7 @@
 		CD8FC5BB1E88F82000957878 /* XYThemeCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				CD8FC5F21E89132500957878 /* collectionView */,
 				CD8FC5BF1E88F82000957878 /* AppDelegate.h */,
 				CD8FC5C01E88F82000957878 /* AppDelegate.m */,
 				CD8FC5C21E88F82000957878 /* ViewController.h */,
@@ -138,6 +152,21 @@
 				CD8FC5E31E88F82000957878 /* Info.plist */,
 			);
 			path = XYThemeCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		CD8FC5F21E89132500957878 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CD8FC5F31E89133200957878 /* XYThemeCollectionView.h */,
+				CD8FC5F41E89133200957878 /* XYThemeCollectionView.m */,
+				CD8FC5F61E89134700957878 /* XYThemeCollectionViewMainCell.h */,
+				CD8FC5F71E89134700957878 /* XYThemeCollectionViewMainCell.m */,
+				CD8FC5FE1E89137900957878 /* XYThemeCollectionViewMainCell.xib */,
+				CD8FC5F91E89136600957878 /* XYThemeCollectionViewSubCell.h */,
+				CD8FC5FA1E89136600957878 /* XYThemeCollectionViewSubCell.m */,
+				CD8FC5FB1E89136600957878 /* XYThemeCollectionViewSubCell.xib */,
+			);
+			name = collectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8FC5FD1E89136600957878 /* XYThemeCollectionViewSubCell.xib in Resources */,
+				CD8FC5FF1E89137900957878 /* XYThemeCollectionViewMainCell.xib in Resources */,
 				CD8FC5CC1E88F82000957878 /* LaunchScreen.storyboard in Resources */,
 				CD8FC5C91E88F82000957878 /* Assets.xcassets in Resources */,
 				CD8FC5C71E88F82000957878 /* Main.storyboard in Resources */,
@@ -275,7 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD8FC5C41E88F82000957878 /* ViewController.m in Sources */,
+				CD8FC5F51E89133200957878 /* XYThemeCollectionView.m in Sources */,
+				CD8FC5F81E89134700957878 /* XYThemeCollectionViewMainCell.m in Sources */,
 				CD8FC5C11E88F82000957878 /* AppDelegate.m in Sources */,
+				CD8FC5FC1E89136600957878 /* XYThemeCollectionViewSubCell.m in Sources */,
 				CD8FC5BE1E88F82000957878 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +544,7 @@
 				CD8FC5E81E88F82000957878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD8FC5E91E88F82000957878 /* Build configuration list for PBXNativeTarget "XYThemeCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +553,7 @@
 				CD8FC5EB1E88F82000957878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD8FC5EC1E88F82000957878 /* Build configuration list for PBXNativeTarget "XYThemeCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +562,7 @@
 				CD8FC5EE1E88F82000957878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
