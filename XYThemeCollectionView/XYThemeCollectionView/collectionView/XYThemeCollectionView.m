@@ -96,6 +96,10 @@ NSString *subCellID = @"XYThemeCollectionViewSubCell";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    XYMainThemeInfo *mainThemeInfo = _themeInfoList[indexPath.section];
+    if ( mainThemeInfo.themeInfoType == themeInfoTypeAD ) {//可以用switch 后面如果扩展
+        return;
+    }
     [_themeInfoList enumerateObjectsUsingBlock:^(XYMainThemeInfo * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if ( idx != indexPath.section && obj.isMainThemeSelected ) {
             obj.isMainThemeSelected = !obj.isMainThemeSelected;
@@ -111,18 +115,11 @@ NSString *subCellID = @"XYThemeCollectionViewSubCell";
     CGRect rect = attributes.frame;
     [self setContentOffset:CGPointMake(rect.origin.x-5, 0) animated:YES];
     
-    XYMainThemeInfo *mainThemeInfo = _themeInfoList[indexPath.section];
     if ( [self isFirstTheme:indexPath] ) {
         mainThemeInfo.isMainThemeSelected = !mainThemeInfo.isMainThemeSelected;
-        [self performBatchUpdates:^{
-            [self reloadSections:[NSIndexSet indexSetWithIndex:indexPath.section]];
-        } completion:^(BOOL finished) {
-            
-        }];
-        
-//        [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:indexPath.section] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+        [self reloadSections:[NSIndexSet indexSetWithIndex:indexPath.section]];
     }else{
-    
+        
     }
 }
 
