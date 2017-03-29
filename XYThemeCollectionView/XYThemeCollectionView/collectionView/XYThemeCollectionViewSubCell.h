@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface XYThemeCollectionViewSubCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *subThemeImageView;
+@property (weak, nonatomic) IBOutlet UILabel *subTemeTitle;
 
 @end

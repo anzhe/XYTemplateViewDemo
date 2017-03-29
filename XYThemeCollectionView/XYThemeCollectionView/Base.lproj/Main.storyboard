@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,10 +23,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSh-6A-tDr">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HLA-NY-aLB" customClass="XYThemeCollectionView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HLA-NY-aLB" customClass="XYThemeCollectionView">
+                                        <rect key="frame" x="0.0" y="263.5" width="375" height="140"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="htu-db-nhk">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="kLB-Ln-FLu"/>
+                                        </constraints>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="htu-db-nhk">
                                             <size key="itemSize" width="50" height="50"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -38,10 +40,9 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="HLA-NY-aLB" secondAttribute="bottom" id="Kup-6R-tLk"/>
-                                    <constraint firstItem="HLA-NY-aLB" firstAttribute="top" secondItem="eSh-6A-tDr" secondAttribute="top" id="ZWI-cL-6Jq"/>
-                                    <constraint firstItem="HLA-NY-aLB" firstAttribute="leading" secondItem="eSh-6A-tDr" secondAttribute="leading" id="dob-4c-cy6"/>
-                                    <constraint firstAttribute="trailing" secondItem="HLA-NY-aLB" secondAttribute="trailing" id="kis-AM-yrl"/>
+                                    <constraint firstAttribute="trailing" secondItem="HLA-NY-aLB" secondAttribute="trailing" id="Kiu-pD-qX5"/>
+                                    <constraint firstItem="HLA-NY-aLB" firstAttribute="leading" secondItem="eSh-6A-tDr" secondAttribute="leading" id="eUz-1h-LE7"/>
+                                    <constraint firstItem="HLA-NY-aLB" firstAttribute="centerY" secondItem="eSh-6A-tDr" secondAttribute="centerY" id="tSZ-vu-1cm"/>
                                 </constraints>
                             </view>
                         </subviews>
