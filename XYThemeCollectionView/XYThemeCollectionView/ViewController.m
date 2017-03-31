@@ -13,8 +13,11 @@ int infoCount = 10;
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *themeWidthConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *themeHeightConstraint;
 @property (weak, nonatomic) IBOutlet XYThemeCollectionView *themeCollectionView;
 @property (strong, nonatomic) NSMutableArray *themeInfoList;
+
 @end
 
 @implementation ViewController
@@ -26,6 +29,9 @@ int infoCount = 10;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (BOOL)shouldAutorotate{
+    return NO;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -51,6 +57,27 @@ int infoCount = 10;
 
 - (void)initUI{
     [self.themeCollectionView initCollectionView:_themeInfoList];
+}
+
+- (IBAction)onClickChangeRotateBtn:(id)sender {
+//    CGFloat themeWidth = [self themeViewRotateIsPortrait]?140:375;
+//    CGFloat themeHight = [self themeViewRotateIsPortrait]?375:140;
+//    self.themeWidthConstraint.constant = themeWidth;
+//    self.themeHeightConstraint.constant = themeHight;
+    
+    ThemeViewRotateType type = [self themeViewRotateIsPortrait]?ThemeViewRotateTypeLandscapeLR:ThemeViewRotateTypePortrait;
+    [self.themeCollectionView setThemeRotateType:type];
+    
+//    NSNumber *value = [self themeViewRotateIsPortrait]?[NSNumber numberWithInt:UIDeviceOrientationLandscapeLeft]:[NSNumber numberWithInt:UIInterfaceOrientationPortrait];
+//    [[UIDevice currentDevice] setValue:value forKey:@"orientation"];
+}
+
+- (BOOL)themeViewRotateIsPortrait{
+    if ( self.themeCollectionView.themeViewRotateType == ThemeViewRotateTypePortrait ) {
+        return YES;
+    }else{
+        return NO;
+    }
 }
 
 @end

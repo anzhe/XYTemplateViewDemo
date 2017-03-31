@@ -16,6 +16,11 @@ typedef NS_ENUM(NSUInteger, ThemeInfoType) {
     themeInfoTypeAD,
 };
 
+typedef NS_ENUM(NSUInteger, ThemeViewRotateType) {//normal is portrait
+    ThemeViewRotateTypePortrait,
+    ThemeViewRotateTypeLandscapeLR,//left or right
+};
+
 @interface XYSubThemeInfo : NSObject
 
 @property (copy, nonatomic) NSString *themeTitle;
@@ -35,6 +40,9 @@ typedef NS_ENUM(NSUInteger, ThemeInfoType) {
 
 @interface XYThemeCollectionView : UICollectionView
 
+@property (nonatomic, readonly) ThemeViewRotateType themeViewRotateType;
+
 - (void)initCollectionView:(NSMutableArray *)infoList;
+- (void)setThemeRotateType:(ThemeViewRotateType)rotateType;
 
 @end
