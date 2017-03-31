@@ -48,6 +48,7 @@ NSString *subCellID = @"XYThemeCollectionViewSubCell";
     [self registerNib:[UINib nibWithNibName:subCellID bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:subCellID];
     self.delegate = self;
     self.dataSource = self;
+    self.scrollEnabled = NO;
     [self reloadData];
 }
 
@@ -145,27 +146,27 @@ NSString *subCellID = @"XYThemeCollectionViewSubCell";
     
     if ( [self isFirstTheme:indexPath] ) {
         mainThemeInfo.isMainThemeSelected = !mainThemeInfo.isMainThemeSelected;
-//        [self reloadSections:[NSIndexSet indexSetWithIndex:indexPath.section]];
+        [self reloadSections:[NSIndexSet indexSetWithIndex:indexPath.section]];
         
         [_themeInfoList enumerateObjectsUsingBlock:^(XYMainThemeInfo * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if ( idx != indexPath.section && obj.isMainThemeSelected ) {
                 obj.isMainThemeSelected = !obj.isMainThemeSelected;
-//                [self reloadSections:[NSIndexSet indexSetWithIndex:idx]];
+                [self reloadSections:[NSIndexSet indexSetWithIndex:idx]];
                 *stop = YES;
             }
         }];
         
-        [self reloadData];
-        UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:indexPath.section]];
-        if ( attributes == nil ) {
-            return;
-        }
-        CGRect rect = attributes.frame;
-        if ( _themeViewRotateType == ThemeViewRotateTypePortrait ) {
-            [self setContentOffset:CGPointMake(rect.origin.x-5, 0) animated:YES];
-        }else{
-            [self setContentOffset:CGPointMake(rect.origin.x-20, 0) animated:YES];
-        }
+//        [self reloadData];
+//        UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:indexPath.section]];
+//        if ( attributes == nil ) {
+//            return;
+//        }
+//        CGRect rect = attributes.frame;
+//        if ( _themeViewRotateType == ThemeViewRotateTypePortrait ) {
+//            [self setContentOffset:CGPointMake(rect.origin.x-5, 0) animated:YES];
+//        }else{
+//            [self setContentOffset:CGPointMake(rect.origin.x-20, 0) animated:YES];
+//        }
     }else{
         
     }
