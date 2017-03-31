@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3062571E8E53C600AC84DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3062561E8E53C600AC84DB /* main.m */; };
+		CD30625A1E8E53C600AC84DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3062591E8E53C600AC84DB /* AppDelegate.m */; };
+		CD30625D1E8E53C600AC84DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30625C1E8E53C600AC84DB /* ViewController.m */; };
+		CD3062601E8E53C600AC84DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD30625E1E8E53C600AC84DB /* Main.storyboard */; };
+		CD3062621E8E53C600AC84DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3062611E8E53C600AC84DB /* Assets.xcassets */; };
+		CD3062651E8E53C600AC84DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3062631E8E53C600AC84DB /* LaunchScreen.storyboard */; };
+		CD3062701E8E53C600AC84DB /* XYListVewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30626F1E8E53C600AC84DB /* XYListVewDemoTests.m */; };
+		CD30627B1E8E53C600AC84DB /* XYListVewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30627A1E8E53C600AC84DB /* XYListVewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD30626C1E8E53C600AC84DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD30624A1E8E53C600AC84DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3062511E8E53C600AC84DB;
+			remoteInfo = XYListVewDemo;
+		};
+		CD3062771E8E53C600AC84DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD30624A1E8E53C600AC84DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3062511E8E53C600AC84DB;
+			remoteInfo = XYListVewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3062521E8E53C600AC84DB /* XYListVewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYListVewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3062561E8E53C600AC84DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3062581E8E53C600AC84DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3062591E8E53C600AC84DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD30625B1E8E53C600AC84DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD30625C1E8E53C600AC84DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD30625F1E8E53C600AC84DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3062611E8E53C600AC84DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3062641E8E53C600AC84DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3062661E8E53C600AC84DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD30626B1E8E53C600AC84DB /* XYListVewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYListVewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30626F1E8E53C600AC84DB /* XYListVewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYListVewDemoTests.m; sourceTree = "<group>"; };
+		CD3062711E8E53C600AC84DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3062761E8E53C600AC84DB /* XYListVewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYListVewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30627A1E8E53C600AC84DB /* XYListVewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYListVewDemoUITests.m; sourceTree = "<group>"; };
+		CD30627C1E8E53C600AC84DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD30624F1E8E53C600AC84DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3062681E8E53C600AC84DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3062731E8E53C600AC84DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3062491E8E53C600AC84DB = {
+			isa = PBXGroup;
+			children = (
+				CD3062541E8E53C600AC84DB /* XYListVewDemo */,
+				CD30626E1E8E53C600AC84DB /* XYListVewDemoTests */,
+				CD3062791E8E53C600AC84DB /* XYListVewDemoUITests */,
+				CD3062531E8E53C600AC84DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3062531E8E53C600AC84DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3062521E8E53C600AC84DB /* XYListVewDemo.app */,
+				CD30626B1E8E53C600AC84DB /* XYListVewDemoTests.xctest */,
+				CD3062761E8E53C600AC84DB /* XYListVewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3062541E8E53C600AC84DB /* XYListVewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD3062581E8E53C600AC84DB /* AppDelegate.h */,
+				CD3062591E8E53C600AC84DB /* AppDelegate.m */,
+				CD30625B1E8E53C600AC84DB /* ViewController.h */,
+				CD30625C1E8E53C600AC84DB /* ViewController.m */,
+				CD30625E1E8E53C600AC84DB /* Main.storyboard */,
+				CD3062611E8E53C600AC84DB /* Assets.xcassets */,
+				CD3062631E8E53C600AC84DB /* LaunchScreen.storyboard */,
+				CD3062661E8E53C600AC84DB /* Info.plist */,
+				CD3062551E8E53C600AC84DB /* Supporting Files */,
+			);
+			path = XYListVewDemo;
+			sourceTree = "<group>";
+		};
+		CD3062551E8E53C600AC84DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3062561E8E53C600AC84DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD30626E1E8E53C600AC84DB /* XYListVewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD30626F1E8E53C600AC84DB /* XYListVewDemoTests.m */,
+				CD3062711E8E53C600AC84DB /* Info.plist */,
+			);
+			path = XYListVewDemoTests;
+			sourceTree = "<group>";
+		};
+		CD3062791E8E53C600AC84DB /* XYListVewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD30627A1E8E53C600AC84DB /* XYListVewDemoUITests.m */,
+				CD30627C1E8E53C600AC84DB /* Info.plist */,
+			);
+			path = XYListVewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3062511E8E53C600AC84DB /* XYListVewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD30627F1E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemo" */;
+			buildPhases = (
+				CD30624E1E8E53C600AC84DB /* Sources */,
+				CD30624F1E8E53C600AC84DB /* Frameworks */,
+				CD3062501E8E53C600AC84DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYListVewDemo;
+			productName = XYListVewDemo;
+			productReference = CD3062521E8E53C600AC84DB /* XYListVewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD30626A1E8E53C600AC84DB /* XYListVewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3062821E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemoTests" */;
+			buildPhases = (
+				CD3062671E8E53C600AC84DB /* Sources */,
+				CD3062681E8E53C600AC84DB /* Frameworks */,
+				CD3062691E8E53C600AC84DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD30626D1E8E53C600AC84DB /* PBXTargetDependency */,
+			);
+			name = XYListVewDemoTests;
+			productName = XYListVewDemoTests;
+			productReference = CD30626B1E8E53C600AC84DB /* XYListVewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3062751E8E53C600AC84DB /* XYListVewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3062851E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemoUITests" */;
+			buildPhases = (
+				CD3062721E8E53C600AC84DB /* Sources */,
+				CD3062731E8E53C600AC84DB /* Frameworks */,
+				CD3062741E8E53C600AC84DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3062781E8E53C600AC84DB /* PBXTargetDependency */,
+			);
+			name = XYListVewDemoUITests;
+			productName = XYListVewDemoUITests;
+			productReference = CD3062761E8E53C600AC84DB /* XYListVewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD30624A1E8E53C600AC84DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = duxuan;
+				TargetAttributes = {
+					CD3062511E8E53C600AC84DB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					CD30626A1E8E53C600AC84DB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3062511E8E53C600AC84DB;
+					};
+					CD3062751E8E53C600AC84DB = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3062511E8E53C600AC84DB;
+					};
+				};
+			};
+			buildConfigurationList = CD30624D1E8E53C600AC84DB /* Build configuration list for PBXProject "XYListVewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3062491E8E53C600AC84DB;
+			productRefGroup = CD3062531E8E53C600AC84DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3062511E8E53C600AC84DB /* XYListVewDemo */,
+				CD30626A1E8E53C600AC84DB /* XYListVewDemoTests */,
+				CD3062751E8E53C600AC84DB /* XYListVewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3062501E8E53C600AC84DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3062651E8E53C600AC84DB /* LaunchScreen.storyboard in Resources */,
+				CD3062621E8E53C600AC84DB /* Assets.xcassets in Resources */,
+				CD3062601E8E53C600AC84DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3062691E8E53C600AC84DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3062741E8E53C600AC84DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD30624E1E8E53C600AC84DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30625D1E8E53C600AC84DB /* ViewController.m in Sources */,
+				CD30625A1E8E53C600AC84DB /* AppDelegate.m in Sources */,
+				CD3062571E8E53C600AC84DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3062671E8E53C600AC84DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3062701E8E53C600AC84DB /* XYListVewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3062721E8E53C600AC84DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30627B1E8E53C600AC84DB /* XYListVewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD30626D1E8E53C600AC84DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3062511E8E53C600AC84DB /* XYListVewDemo */;
+			targetProxy = CD30626C1E8E53C600AC84DB /* PBXContainerItemProxy */;
+		};
+		CD3062781E8E53C600AC84DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3062511E8E53C600AC84DB /* XYListVewDemo */;
+			targetProxy = CD3062771E8E53C600AC84DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD30625E1E8E53C600AC84DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD30625F1E8E53C600AC84DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3062631E8E53C600AC84DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3062641E8E53C600AC84DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD30627D1E8E53C600AC84DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD30627E1E8E53C600AC84DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3062801E8E53C600AC84DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYListVewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3062811E8E53C600AC84DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYListVewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3062831E8E53C600AC84DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYListVewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYListVewDemo.app/XYListVewDemo";
+			};
+			name = Debug;
+		};
+		CD3062841E8E53C600AC84DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYListVewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYListVewDemo.app/XYListVewDemo";
+			};
+			name = Release;
+		};
+		CD3062861E8E53C600AC84DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYListVewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYListVewDemo;
+			};
+			name = Debug;
+		};
+		CD3062871E8E53C600AC84DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYListVewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYListVewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD30624D1E8E53C600AC84DB /* Build configuration list for PBXProject "XYListVewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30627D1E8E53C600AC84DB /* Debug */,
+				CD30627E1E8E53C600AC84DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD30627F1E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3062801E8E53C600AC84DB /* Debug */,
+				CD3062811E8E53C600AC84DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3062821E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3062831E8E53C600AC84DB /* Debug */,
+				CD3062841E8E53C600AC84DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3062851E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3062861E8E53C600AC84DB /* Debug */,
+				CD3062871E8E53C600AC84DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD30624A1E8E53C600AC84DB /* Project object */;
+}
