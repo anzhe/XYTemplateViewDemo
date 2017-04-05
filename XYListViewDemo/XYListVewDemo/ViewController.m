@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "XYListCollectionView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet XYListCollectionView *listCollectionView;
 
 @end
 
@@ -16,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [_listCollectionView initAll];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

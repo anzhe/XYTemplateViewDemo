@@ -15,6 +15,13 @@
 		CD3062651E8E53C600AC84DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3062631E8E53C600AC84DB /* LaunchScreen.storyboard */; };
 		CD3062701E8E53C600AC84DB /* XYListVewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30626F1E8E53C600AC84DB /* XYListVewDemoTests.m */; };
 		CD30627B1E8E53C600AC84DB /* XYListVewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30627A1E8E53C600AC84DB /* XYListVewDemoUITests.m */; };
+		CD9761401E8FADA000A92F09 /* XYListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD97613F1E8FADA000A92F09 /* XYListCollectionView.m */; };
+		CD9761441E8FAFCD00A92F09 /* XYListCollectionViewMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9761421E8FAFCD00A92F09 /* XYListCollectionViewMainCell.m */; };
+		CD9761451E8FAFCD00A92F09 /* XYListCollectionViewMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9761431E8FAFCD00A92F09 /* XYListCollectionViewMainCell.xib */; };
+		CD9761491E8FAFE300A92F09 /* XYListCollectionViewSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9761471E8FAFE300A92F09 /* XYListCollectionViewSubCell.m */; };
+		CD97614A1E8FAFE300A92F09 /* XYListCollectionViewSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9761481E8FAFE300A92F09 /* XYListCollectionViewSubCell.xib */; };
+		CD97614D1E8FB0EC00A92F09 /* XYListSubCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD97614C1E8FB0EC00A92F09 /* XYListSubCollectionView.m */; };
+		CD9761501E8FB35E00A92F09 /* UIColor+XYAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD97614F1E8FB35E00A92F09 /* UIColor+XYAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		CD3062761E8E53C600AC84DB /* XYListVewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYListVewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30627A1E8E53C600AC84DB /* XYListVewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYListVewDemoUITests.m; sourceTree = "<group>"; };
 		CD30627C1E8E53C600AC84DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD97613E1E8FADA000A92F09 /* XYListCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYListCollectionView.h; sourceTree = "<group>"; };
+		CD97613F1E8FADA000A92F09 /* XYListCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYListCollectionView.m; sourceTree = "<group>"; };
+		CD9761411E8FAFCD00A92F09 /* XYListCollectionViewMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYListCollectionViewMainCell.h; sourceTree = "<group>"; };
+		CD9761421E8FAFCD00A92F09 /* XYListCollectionViewMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYListCollectionViewMainCell.m; sourceTree = "<group>"; };
+		CD9761431E8FAFCD00A92F09 /* XYListCollectionViewMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYListCollectionViewMainCell.xib; sourceTree = "<group>"; };
+		CD9761461E8FAFE300A92F09 /* XYListCollectionViewSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYListCollectionViewSubCell.h; sourceTree = "<group>"; };
+		CD9761471E8FAFE300A92F09 /* XYListCollectionViewSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYListCollectionViewSubCell.m; sourceTree = "<group>"; };
+		CD9761481E8FAFE300A92F09 /* XYListCollectionViewSubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYListCollectionViewSubCell.xib; sourceTree = "<group>"; };
+		CD97614B1E8FB0EC00A92F09 /* XYListSubCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYListSubCollectionView.h; sourceTree = "<group>"; };
+		CD97614C1E8FB0EC00A92F09 /* XYListSubCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYListSubCollectionView.m; sourceTree = "<group>"; };
+		CD97614E1E8FB35E00A92F09 /* UIColor+XYAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYAdapter.h"; sourceTree = "<group>"; };
+		CD97614F1E8FB35E00A92F09 /* UIColor+XYAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYAdapter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,18 @@
 		CD3062541E8E53C600AC84DB /* XYListVewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD97614E1E8FB35E00A92F09 /* UIColor+XYAdapter.h */,
+				CD97614F1E8FB35E00A92F09 /* UIColor+XYAdapter.m */,
+				CD97613E1E8FADA000A92F09 /* XYListCollectionView.h */,
+				CD97613F1E8FADA000A92F09 /* XYListCollectionView.m */,
+				CD97614B1E8FB0EC00A92F09 /* XYListSubCollectionView.h */,
+				CD97614C1E8FB0EC00A92F09 /* XYListSubCollectionView.m */,
+				CD9761411E8FAFCD00A92F09 /* XYListCollectionViewMainCell.h */,
+				CD9761421E8FAFCD00A92F09 /* XYListCollectionViewMainCell.m */,
+				CD9761431E8FAFCD00A92F09 /* XYListCollectionViewMainCell.xib */,
+				CD9761461E8FAFE300A92F09 /* XYListCollectionViewSubCell.h */,
+				CD9761471E8FAFE300A92F09 /* XYListCollectionViewSubCell.m */,
+				CD9761481E8FAFE300A92F09 /* XYListCollectionViewSubCell.xib */,
 				CD3062581E8E53C600AC84DB /* AppDelegate.h */,
 				CD3062591E8E53C600AC84DB /* AppDelegate.m */,
 				CD30625B1E8E53C600AC84DB /* ViewController.h */,
@@ -207,6 +238,7 @@
 				TargetAttributes = {
 					CD3062511E8E53C600AC84DB = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = BMP99N9345;
 						ProvisioningStyle = Automatic;
 					};
 					CD30626A1E8E53C600AC84DB = {
@@ -246,7 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9761451E8FAFCD00A92F09 /* XYListCollectionViewMainCell.xib in Resources */,
 				CD3062651E8E53C600AC84DB /* LaunchScreen.storyboard in Resources */,
+				CD97614A1E8FAFE300A92F09 /* XYListCollectionViewSubCell.xib in Resources */,
 				CD3062621E8E53C600AC84DB /* Assets.xcassets in Resources */,
 				CD3062601E8E53C600AC84DB /* Main.storyboard in Resources */,
 			);
@@ -273,8 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9761501E8FB35E00A92F09 /* UIColor+XYAdapter.m in Sources */,
 				CD30625D1E8E53C600AC84DB /* ViewController.m in Sources */,
+				CD9761401E8FADA000A92F09 /* XYListCollectionView.m in Sources */,
 				CD30625A1E8E53C600AC84DB /* AppDelegate.m in Sources */,
+				CD9761441E8FAFCD00A92F09 /* XYListCollectionViewMainCell.m in Sources */,
+				CD9761491E8FAFE300A92F09 /* XYListCollectionViewSubCell.m in Sources */,
+				CD97614D1E8FB0EC00A92F09 /* XYListSubCollectionView.m in Sources */,
 				CD3062571E8E53C600AC84DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -426,9 +465,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BMP99N9345;
 				INFOPLIST_FILE = XYListVewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = dx.XYThemeCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,9 +478,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BMP99N9345;
 				INFOPLIST_FILE = XYListVewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Quvideo.XYListVewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = dx.XYThemeCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,6 +552,7 @@
 				CD3062811E8E53C600AC84DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD3062821E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +561,7 @@
 				CD3062841E8E53C600AC84DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD3062851E8E53C600AC84DB /* Build configuration list for PBXNativeTarget "XYListVewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +570,7 @@
 				CD3062871E8E53C600AC84DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
