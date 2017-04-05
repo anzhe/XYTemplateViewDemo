@@ -151,7 +151,7 @@ NSString *subCellID = @"XYThemeCollectionViewSubCell";
         [_themeInfoList enumerateObjectsUsingBlock:^(XYMainThemeInfo * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if ( idx != indexPath.section && obj.isMainThemeSelected ) {
                 obj.isMainThemeSelected = !obj.isMainThemeSelected;
-                [self reloadSections:[NSIndexSet indexSetWithIndex:idx]];
+//                [self reloadSections:[NSIndexSet indexSetWithIndex:idx]];
                 *stop = YES;
             }
         }];

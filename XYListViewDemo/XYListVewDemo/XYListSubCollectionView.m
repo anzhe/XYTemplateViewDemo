@@ -20,7 +20,7 @@ NSString *subCellID = @"XYListCollectionViewSubCell";
 @implementation XYListSubCollectionView
 
 - (void)initAll{
-    _cellColorArray = @[[UIColor blackColor], [UIColor greenColor]];
+    _cellColorArray = @[[UIColor redColor], [UIColor greenColor]];
     [self registerNib:[UINib nibWithNibName:subCellID bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:subCellID];
     self.delegate = self;
     self.dataSource = self;
