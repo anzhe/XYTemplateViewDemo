@@ -20,7 +20,7 @@ NSString *subCellID = @"XYListCollectionViewSubCell";
 @implementation XYListSubCollectionView
 
 - (void)initAll{
-    _cellColorArray = @[[UIColor blueColor], [UIColor blackColor], [UIColor greenColor], [UIColor yellowColor], [UIColor redColor], [UIColor orangeColor]];
+    _cellColorArray = @[[UIColor blackColor], [UIColor greenColor]];
     [self registerNib:[UINib nibWithNibName:subCellID bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:subCellID];
     self.delegate = self;
     self.dataSource = self;
@@ -29,9 +29,17 @@ NSString *subCellID = @"XYListCollectionViewSubCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     XYListCollectionViewSubCell *subCell = [collectionView dequeueReusableCellWithReuseIdentifier:subCellID forIndexPath:indexPath];
-    int colorIndex = indexPath.item%6;
+    int colorIndex = indexPath.item%2;
     subCell.bgView.backgroundColor = [_cellColorArray objectAtIndex:colorIndex];
     return subCell;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
+    return 0;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
+    return 0;
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -39,11 +47,11 @@ NSString *subCellID = @"XYListCollectionViewSubCell";
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 10;
+    return 2;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    return CGSizeMake(50, 250);
+    return CGSizeMake(375, 250);
 }
 
 @end
